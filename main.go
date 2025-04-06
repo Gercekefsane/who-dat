@@ -57,7 +57,7 @@ func main() {
 	// Choose the port to start server on
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8080"
+		port = "7070"
 	}
 
 	serverAddress := fmt.Sprintf(":%s", port)
